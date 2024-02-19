@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="form-container">
+        <button id="new-book-btn">NEW BOOK</button>
+        <form id="new-book-form" hidden>
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="author" placeholder="Author" required>
+            <input type="number" id="pages" placeholder="# Pages" required>
+            <input type="checkbox" id="read">I've read this book
+            <input type="submit" value="Add Book">
+        </form>
+    </div>
+    <div id="library-container"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
